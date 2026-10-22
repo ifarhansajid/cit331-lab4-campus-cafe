@@ -32,16 +32,13 @@ Pseudo-element	...
  
 | # | What was wrong (file and line) | Which tool showed it | My fix |
 |---|--------------------------------|----------------------|--------|
-| 1 | ... | ... | ... |
-| 2 | ... | ... | ... |
-| 3 | ... | ... | ... |
-| 4 | ... | ... | ... |
-| 5 | ... | ... | ... |
-| 6 | ... | ... | ... |
-| 7 | ... | ... | ... |
-| 8 | ... | ... | ... |
-| 9 | ... | ... | ... |
-| 10 | ... | ... | ... |
+| 1 | Network tab shows a red row for one file
+| 2 | Lighthouse names three accessibility faults on the first run
+| 3 | the validator and the Accessibility tree both complain about structure
+| 4 | two CSS rules do not work. One is a misspelled property name
+| 5 |one CSS rule never applies to anything. Compare its selector with the class name used in the HTML, letter by letter.
+| 6 | : clicking the label "Email address" should put the cursor in the field. If it does not, the two ids differ
+
  
 
 
